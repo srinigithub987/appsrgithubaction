@@ -1,6 +1,6 @@
 name: Python CI
 # This workflow will install Python dependencies and run tests using pytest
-# It is triggered on pushes and pull requests to the main branch
+# It is triggered on pushes and pull requests to the main branch, making it suitable for continuous integration.
 on:
   push:
     branches: [ "main" ]
